@@ -44,7 +44,7 @@ h1 {
     background-color: crimson;
     color: red;
     padding:15px;
-    border-radius:8px;
+    border-radius:5px;
 
 }
 .input-box {
@@ -92,7 +92,6 @@ h1 {
         transform: scale(0.5);
     }
 
-
 .ok {
     color: dodgerblue;
     transition: all 0.3s ease;
@@ -100,6 +99,13 @@ h1 {
     .ok:hover {
         color:limegreen;
     }
-    .ok:active {
-        transform: scale(0.5);
+    .ok:active{
+        transform: scale(0.5); 
     }
+
+
+body {
+    background: linear-gradient(dodgerblue, blue);
+    background-attachment: fixed;
+   
+}
