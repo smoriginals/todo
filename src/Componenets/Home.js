@@ -7,14 +7,13 @@ export default function Home() {
     const [inputValue, setInputValue] = useState('');
     const [list, setList] = useState([]); // Corrected initial state to an array
     const [text, setText] = useState('No Task');
-
    
-
     const HandleChange = (e) => {
         setInputValue(e.target.value);
     }
 
-    const AddCard = () => {
+    const AddCard = async (e) => {
+        
         if (inputValue.trim() !== '') {
             if (list.length === 0) {
                 setList([inputValue]);
