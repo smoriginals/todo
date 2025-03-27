@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const taskSchema = require('./backend/Models/task-schema');  //task-schema imported from task-schema.js.
 
-router.post('add', async (req, res) => {
+router.post('/add', async (req, res) => {
     const { description } = req.body;   //task in comes from task-schema.js.
     try {
         const tsk = new taskSchema({ task });
