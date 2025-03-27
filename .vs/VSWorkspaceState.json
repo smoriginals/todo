@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\Controllers",
-    "\\backend\\Models"
+    "\\public",
+    "\\src",
+    "\\src\\Componenets"
   ],
-  "SelectedNode": "\\backend\\Controllers\\db.js",
+  "SelectedNode": "\\src\\Componenets\\CreateTask.js",
   "PreviewInSolutionExplorer": false
 }

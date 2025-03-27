@@ -2,14 +2,11 @@ const express = require('express');
 const router = express.Router();
 const taskSchema = require('../Models/task-schema');  //task-schema imported from task-schema.js.
 
-router.post('/add', async (req, res) => {
-    const { description } = req.body;   //task in comes from task-schema.js.
+router.get('/fetch', async (req, res) => {
     try {
-        const tsk = new taskSchema({ description });
-        await tsk.save();
-        res.status(201).json({ message: 'Task added successfully', task: tsk });
-    }
-    catch (err) {
+        const tasks = await taskSchema.find();
+        res.status(200).json(tasks);
+    } catch (err) {
         res.status(500).json({ message: 'Network Error', error: err });
         console.log({ message: 'Network Error:', err });
     }
