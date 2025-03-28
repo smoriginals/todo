@@ -1,7 +1,11 @@
 const connectionDB = require('./db');
 const express = require('express');
-const addtask = require('../Routes/addtask');
 const cors = require('cors');
+const addtask = require('../Routes/addtask');
+const fetchtask = require('../Routes/fetchtask');
+
+
+
 
 connectionDB();
 
@@ -17,6 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/task', addtask);
+app.use('/task', fetchtask);
 
 app.listen(PORT, () => {
     console.log(`${PORT} Online...`);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Cards from '../Componenets/Cards';
 import '../App.css';
 
@@ -8,10 +8,30 @@ export default function Home() {
     const [list, setList] = useState([]); // Corrected initial state to an array
     const [text, setText] = useState('No Task');
 
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('http://localhost:5000/task/fetch');
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.length > 0) {
+                        setList(data.map((item) => item.description));
+                        setText('Tasks Available');
+                    }
+                } else {
+                    console.error('Failed to fetch data');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+        fetchData();
+    },[])
+
+
     const HandleChange = (e) => {
         setInputValue(e.target.value);
     }
-
     const AddCard = async (e) => {
         if (inputValue.trim() !== '') {
             try {
