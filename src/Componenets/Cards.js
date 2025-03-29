@@ -9,8 +9,24 @@ export default function Cards(props) {
         setColor(newColor);
         e.target.closest('.card').style.backgroundColor = newColor;
     }
-    const Delete = (e) => {
+
+    const Delete = async (e) => {
         console.log('Deleting');
+        try {
+            const response = await fetch(`http://localhost:5000/task/delete/${props.id}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            if (response.ok) {
+                props.onDelete(props.id);
+               // e.target.closest('.card').remove();
+            }
+        }
+        catch (error) {
+            console.error('Error:', error);
+        }
     }
     return (
         <>

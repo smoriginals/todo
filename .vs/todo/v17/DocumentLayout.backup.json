@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Cards.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Componenets\\Cards.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\deletetask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Routes\\deletetask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\addtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Routes\\addtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\fetchtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Routes\\fetchtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Models\\task-schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\task-schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Controllers\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +62,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Controllers\\server.js",
+              "RelativeDocumentMoniker": "backend\\Controllers\\server.js",
+              "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Controllers\\server.js",
+              "RelativeToolTip": "backend\\Controllers\\server.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-29T17:21:45.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "deletetask.js",
+              "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\deletetask.js",
+              "RelativeDocumentMoniker": "backend\\Routes\\deletetask.js",
+              "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\deletetask.js",
+              "RelativeToolTip": "backend\\Routes\\deletetask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-29T17:15:48.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "task-schema.js",
+              "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Models\\task-schema.js",
+              "RelativeDocumentMoniker": "backend\\Models\\task-schema.js",
+              "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Models\\task-schema.js",
+              "RelativeToolTip": "backend\\Models\\task-schema.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-29T16:09:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fetchtask.js",
+              "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\fetchtask.js",
+              "RelativeDocumentMoniker": "backend\\Routes\\fetchtask.js",
+              "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\fetchtask.js",
+              "RelativeToolTip": "backend\\Routes\\fetchtask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-27T18:34:33.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "addtask.js",
               "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\addtask.js",
               "RelativeDocumentMoniker": "backend\\Routes\\addtask.js",
               "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\backend\\Routes\\addtask.js",
               "RelativeToolTip": "backend\\Routes\\addtask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-27T17:18:52.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cards.js",
               "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Cards.js",
               "RelativeDocumentMoniker": "src\\Componenets\\Cards.js",
               "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Cards.js",
               "RelativeToolTip": "src\\Componenets\\Cards.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-24T17:47:33.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Home.js",
               "RelativeDocumentMoniker": "src\\Componenets\\Home.js",
               "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\Componenets\\Home.js",
               "RelativeToolTip": "src\\Componenets\\Home.js",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-24T16:18:33.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "App.js",
               "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\App.js",
               "RelativeDocumentMoniker": "src\\App.js",
@@ -98,13 +166,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\index.js",
               "RelativeDocumentMoniker": "src\\index.js",
               "ToolTip": "C:\\Users\\suraj\\OneDrive\\Desktop\\todo\\src\\index.js",
               "RelativeToolTip": "src\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-24T16:06:42.259Z",
               "EditorCaption": ""

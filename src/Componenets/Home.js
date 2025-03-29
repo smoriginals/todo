@@ -15,7 +15,8 @@ export default function Home() {
                 if (response.ok) {
                     const data = await response.json();
                     if (data.length > 0) {
-                        setList(data.map((item) => item.description));
+                        //setList(data.map((item) => item.description));
+                        setList(data);
                         setText('Tasks Available');
                     }
                 } else {
@@ -32,6 +33,7 @@ export default function Home() {
     const HandleChange = (e) => {
         setInputValue(e.target.value);
     }
+   
     const AddCard = async (e) => {
         if (inputValue.trim() !== '') {
             try {
@@ -44,13 +46,15 @@ export default function Home() {
                 });
 
                 if (response.ok) {
-                    const data = await response.json();
-                    if (list.length === 0) {
-                        setList([inputValue]);
+                    //const data = await response.json();
+                    //if (list.length === 0) {
+                        const data = await response.json();
+                        //setList([inputValue]);
+                        setList([...list, data.task]);
                         setText('New Task Added');
-                    } else {
+                   // } else {
                         setList([...list, inputValue]);
-                    }
+                    //}
                 } else {
                     console.error('Failed to add task');
                 }
@@ -61,7 +65,9 @@ export default function Home() {
 
         setInputValue(''); // Added to clear the input field after adding the card
     }
-
+    const HandeleDelete = (id) => {
+        setList(list.filter(task => task._id !== id))
+    }
     return (
         <>
             <h1>Let's To-Do</h1>
@@ -80,7 +86,7 @@ export default function Home() {
             <div className="container d-flex justify-content-center flex-wrap">
                 {
                     list.map((item, val) => {
-                        return <Cards description={item} task={`Task ${val + 1}`} />
+                        return <Cards key={item._id} id={item._id} description={item} task={`Task ${val + 1}`} onDelete={HandeleDelete} />
                     })
                 }
             </div>

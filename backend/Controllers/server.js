@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const addtask = require('../Routes/addtask');
 const fetchtask = require('../Routes/fetchtask');
-
+const deletetask = require('../Routes/deletetask');
 
 
 
@@ -22,6 +22,7 @@ app.get('/', (req, res) => {
 
 app.use('/task', addtask);
 app.use('/task', fetchtask);
+app.use('/task', deletetask);
 
 app.listen(PORT, () => {
     console.log(`${PORT} Online...`);
