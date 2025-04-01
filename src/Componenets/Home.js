@@ -1,14 +1,13 @@
 import '../App.css';
-import React, { useState, useEffect, useContext } from 'react';
-import contexts from '../../backend/ContextAPI/contexts';
+import React, {useContext} from 'react';
 import Cards from '../Componenets/Cards';
 import Navbar from '../Componenets/Navbar';
 import Title from '../Componenets/Title';
+import context from '../backend/ContextAPI/contexts';
 
 export default function Home() {
-
-    const example = useContext(contexts);
-    const { ReadTask } = example;
+    const ctx = useContext(context);
+    const { ReadTask } = ctx;
 
     const FetchTask = () => {
         ReadTask();
@@ -17,9 +16,8 @@ export default function Home() {
     return (
         <>
             <Title />
-
             <div className="container p-2">
-                 <Navbar/>
+                <Navbar />
             </div>
 
             <div className="container">
@@ -27,7 +25,6 @@ export default function Home() {
             </div>
 
             <div className="container d-flex justify-content-center flex-wrap p-2">
-                FetchTask();
                 <Cards/>
             </div>
         </>

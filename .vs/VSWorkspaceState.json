@@ -1,14 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
-    "\\backend\\Controllers",
-    "\\backend\\Models",
-    "\\backend\\Routes",
-    "\\public",
-    "\\src",
     "\\src\\Componenets"
   ],
-  "SelectedNode": "\\backend\\Controllers\\server.js",
+  "SelectedNode": "\\craco.config.js",
   "PreviewInSolutionExplorer": false
 }

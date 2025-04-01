@@ -1,5 +1,4 @@
-import Home from '../src/Componenets/Home';
-
+import Home from './Componenets/Home';
 
 export default function App() {
     return (
