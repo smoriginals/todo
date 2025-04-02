@@ -8,18 +8,19 @@ export default function AddTaskBar(props) {
 
     const [inputValue, setInputValue] = useState('');
 
-
     const HandleChange = (e) => {
+        e.preventDefault();
         setInputValue(e.target.value);
-        console.log(e.target.value);
+       
     }
-    const HandleAddTask = () => {
+    const HandleAddTask = (e) => {
+        e.preventDefault();
         if (inputValue.trim() !== '') {
             setTsk([...tsk, inputValue]);
             ctx.CreateTask(inputValue);
             setInputValue('');
         }
-        console.log('Task Added');
+        
     }
 
     return (

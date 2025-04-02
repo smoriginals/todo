@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
+    "\\src\\backend",
+    "\\src\\backend\\ContextAPI",
+    "\\src\\backend\\Controllers",
+    "\\src\\backend\\Models",
+    "\\src\\backend\\Routes",
     "\\src\\Componenets"
   ],
-  "SelectedNode": "\\craco.config.js",
+  "SelectedNode": "\\src\\backend\\Routes\\fetchtask.js",
   "PreviewInSolutionExplorer": false
 }
