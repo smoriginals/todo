@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 const taskSchema = require('../Models/task-schema');
 
-router.post('/done', async (req,res) => {
+router.patch('/done/:id', async (req,res) => {
     try {
-        const { id } = req.body;
+        const { id } = req.params;
         const task = await taskSchema.findById(id);
-        if (!task) {
-            return res.status(404).json({ message: 'Not Found' });
+        if (!task||!id) {
+            return res.status(404).json({ message: 'Not Found, Bad Request' });
         }
         task.completed = true;
         await task.save();

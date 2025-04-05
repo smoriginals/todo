@@ -9,6 +9,6 @@
     "\\src\\backend\\Routes",
     "\\src\\Componenets"
   ],
-  "SelectedNode": "\\src\\backend\\Routes\\fetchtask.js",
+  "SelectedNode": "\\src\\backend\\Models\\task-schema.js",
   "PreviewInSolutionExplorer": false
 }

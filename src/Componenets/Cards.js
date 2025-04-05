@@ -1,28 +1,27 @@
-import React, {useContext,useState} from 'react';
+import React, { useContext, useState } from 'react';
 import contexts from '../backend/ContextAPI/contexts';
 import '../App.css';
 
 export default function Cards(props) {
-    const ctx = useContext(contexts);
-    const { CompleteTask } = ctx;
 
+    const ctx = useContext(contexts);
     const [color, setColor] = useState('white');
+
+    const { CompleteTask } = ctx;
 
     const Completed = (e) => {
         e.preventDefault();
         CompleteTask(props.id);
-        setColor('success');
-        
+
     }
     const Delete = (e) => {
         e.preventDefault();
-        console.log('Task Deleted');
     }
 
     return (
         <>
-            <div className="card m-1 rounded-1">
-                <div className="card-body p-3">
+            <div className="card m-1 rounded-1 fs-5">
+                <div className={`card-body p-3 bg-${color}`}>
                     <h4 className="card-subtitle mb-2 text-body-secondary">{props.title}</h4>
                     <p className="card-text ext ">--------------------------------------------</p>
                     <p className="card-text">{props.description}</p>

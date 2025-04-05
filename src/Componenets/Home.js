@@ -26,7 +26,7 @@ export default function Home() {
             <div className="container d-flex justify-content-center flex-wrap p-2 h-100vh">
                 {
                     tsk.map((task,index) => {
-                        return <Cards key={task._id} description={task.description} title={`Task ${index + 1}`} />
+                        return <Cards key={task._id} id={task._id} description={task.description} title={`Task ${index + 1}`} />
                     })
                 }
             </div>

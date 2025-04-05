@@ -4,7 +4,7 @@ import '../App.css';
 export default function AddTaskBar(props) {
 
     const ctx = useContext(context);
-    const {tsk,setTsk } = ctx;
+    const { tsk, setTsk } = ctx;
 
     const [inputValue, setInputValue] = useState('');
 
@@ -13,8 +13,10 @@ export default function AddTaskBar(props) {
         setInputValue(e.target.value);
        
     }
+
     const HandleAddTask = (e) => {
         e.preventDefault();
+
         if (inputValue.trim() !== '') {
             setTsk([...tsk, inputValue]);
             ctx.CreateTask(inputValue);

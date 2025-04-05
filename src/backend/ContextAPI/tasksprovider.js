@@ -12,9 +12,10 @@ const TaskProvider = (props) => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ description: taskDescription })
+            body: JSON.stringify({ description: taskDescription})
         });
         const data = await response.json();
+        setTsk([...tsk,data]);
     }
 
     const FetchTask = async () => {
@@ -26,25 +27,26 @@ const TaskProvider = (props) => {
         });
         const data = await response.json();
         setTsk(data);
-
     }
+
+    const CompleteTask = async (id) => {
+        const response = await fetch(`http://localhost:5000/task/done/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type':'application/json'
+            },
+            body: JSON.stringify({ completed: true })
+        })
+        const data = await response.json();
+        setTsk(tsk.map(task => task.id === id ? data : task));
+        console.log('Task Completed');
+       
+    };
 
     const DeleteTask = () => {
         console.log('Task Deleted');
     }
 
-    const CompleteTask = async (id) => {
-        const response = await fetch('http://localhost:5000/task/done/', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({id})
-        })
-        const data = await response.json();
-        setTsk(data);
-
-    }
 
     return (
         <contexts.Provider value={{ CreateTask, DeleteTask, CompleteTask, FetchTask, tsk, setTsk }}>
