@@ -12,10 +12,11 @@ const TaskProvider = (props) => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ description: taskDescription})
+            body: JSON.stringify({ description: taskDescription })
         });
         const data = await response.json();
-        setTsk([...tsk,data]);
+        setTsk([...tsk, data]);
+        
     }
 
     const FetchTask = async () => {
@@ -33,25 +34,34 @@ const TaskProvider = (props) => {
         const response = await fetch(`http://localhost:5000/task/done/${id}`, {
             method: 'PATCH',
             headers: {
-                'Content-Type':'application/json'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({ completed: true })
         })
         const data = await response.json();
         setTsk(tsk.map(task => task.id === id ? data : task));
         console.log('Task Completed');
-       
+
     };
 
-    const DeleteTask = () => {
-        console.log('Task Deleted');
+    const DeleteTask = async (id) => {
+        const response = await fetch(`http://localhost:5000/task/delete/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type':'application/json'
+            }
+
+        })
+        const data = await response.json();
+        setTsk(tsk.filter(task => task.id !== id));
+        
     }
 
-
-    return (
-        <contexts.Provider value={{ CreateTask, DeleteTask, CompleteTask, FetchTask, tsk, setTsk }}>
-            {props.children}
-        </contexts.Provider>
-    )
+   
+return (
+    <contexts.Provider value={{ CreateTask, DeleteTask, CompleteTask, FetchTask, tsk, setTsk }}>
+        {props.children}
+    </contexts.Provider>
+)
 }
 export default TaskProvider;

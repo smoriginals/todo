@@ -4,6 +4,8 @@ const cors = require('cors');
 const addTask = require('../Routes/addtask');
 const fetchTask = require('../Routes/fetchtask');
 const doneTask = require('../Routes/donetask');
+const deleteTask = require('../Routes/deletetask');
+
 connectionDB();
 
 const app = express();
@@ -16,9 +18,11 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send('server online for this PC.');
 });
+
 app.use('/task', addTask);
 app.use('/task', fetchTask);
 app.use('/task', doneTask);
+app.use('/task', deleteTask);
 
 app.listen(PORT, () => {
     console.log(`${PORT} Online...`);

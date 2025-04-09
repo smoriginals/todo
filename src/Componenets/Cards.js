@@ -7,7 +7,7 @@ export default function Cards(props) {
     const ctx = useContext(contexts);
     const [color, setColor] = useState('white');
 
-    const { CompleteTask } = ctx;
+    const { CompleteTask, DeleteTask, FetchTask } = ctx;
 
     const Completed = (e) => {
         e.preventDefault();
@@ -16,6 +16,8 @@ export default function Cards(props) {
     }
     const Delete = (e) => {
         e.preventDefault();
+        DeleteTask(props.id);
+        FetchTask();
     }
 
     return (
