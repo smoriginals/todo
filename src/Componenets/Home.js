@@ -11,7 +11,8 @@ export default function Home() {
 
     useEffect(() => {
         FetchTask();
-    },[]);
+    }, []);
+
     return (
         <>
             <Title />

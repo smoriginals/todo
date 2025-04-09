@@ -4,15 +4,18 @@ import '../App.css';
 
 export default function Cards(props) {
 
-    const ctx = useContext(contexts);
     const [color, setColor] = useState('white');
+    const newColor = color === 'white' ? 'lawngreen' : 'white';
 
+    const ctx = useContext(contexts);
     const { CompleteTask, DeleteTask, FetchTask } = ctx;
 
     const Completed = (e) => {
         e.preventDefault();
         CompleteTask(props.id);
 
+        setColor(newColor);
+        e.target.closest('.card-body').style.backgroundColor = newColor;
     }
     const Delete = (e) => {
         e.preventDefault();
@@ -23,7 +26,7 @@ export default function Cards(props) {
     return (
         <>
             <div className="card m-1 rounded-1 fs-5">
-                <div className={`card-body p-3 bg-${color}`}>
+                <div className={`card-body p-3`}>
                     <h4 className="card-subtitle mb-2 text-body-secondary">{props.title}</h4>
                     <p className="card-text ext ">--------------------------------------------</p>
                     <p className="card-text">{props.description}</p>

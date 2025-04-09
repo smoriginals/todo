@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import contexts from '../ContextAPI/contexts';
 
 const TaskProvider = (props) => {
@@ -16,7 +16,7 @@ const TaskProvider = (props) => {
         });
         const data = await response.json();
         setTsk([...tsk, data]);
-        
+        await FetchTask();
     }
 
     const FetchTask = async () => {
@@ -29,6 +29,9 @@ const TaskProvider = (props) => {
         const data = await response.json();
         setTsk(data);
     }
+    useEffect(() => {
+        FetchTask()
+    }, [])
 
     const CompleteTask = async (id) => {
         const response = await fetch(`http://localhost:5000/task/done/${id}`, {
@@ -40,8 +43,7 @@ const TaskProvider = (props) => {
         })
         const data = await response.json();
         setTsk(tsk.map(task => task.id === id ? data : task));
-        console.log('Task Completed');
-
+        
     };
 
     const DeleteTask = async (id) => {
@@ -54,7 +56,7 @@ const TaskProvider = (props) => {
         })
         const data = await response.json();
         setTsk(tsk.filter(task => task.id !== id));
-        
+        await FetchTask();
     }
 
    

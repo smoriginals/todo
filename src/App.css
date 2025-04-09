@@ -106,3 +106,8 @@ body {
 .ext{display:contents;
     visibility:hidden;
 }
+
+
+.card-body{
+    background-color:white;
+}
