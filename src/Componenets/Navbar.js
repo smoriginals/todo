@@ -9,26 +9,21 @@ export default function AddTaskBar(props) {
     const [inputValue, setInputValue] = useState('');
 
     const HandleChange = (e) => {
-        
         setInputValue(e.target.value);
-       
     }
 
     const HandleAddTask = () => {
-       
         if (inputValue.trim() !== '') {
-            
             ctx.CreateTask(inputValue);
             setInputValue('');
         }
-        
     }
 
     return (
         <>
             <nav className="navbar bg-body-tertiary rounded-0 d-flex p-3 mb-0">
                 <div className="container d-flex justify-content-center">
-                    <a className="navbar-brand text-center w-100">What's in Your Mind</a>
+                    <a className="navbar-brand text-center w-100 text-primary">What's in Your Mind</a>
                     <div className="d-flex" role="search">
                         <input className="form-control me-2 input-box" type="search" placeholder="🎯 Let's Do This..." aria-label="Search" onChange={HandleChange} value={inputValue} />
                         <button className="btn btn-primary" onClick={HandleAddTask}>Add</button>

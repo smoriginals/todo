@@ -21,13 +21,18 @@ export default function Home() {
             </div>
 
             <div className="container">
-                <h1 className="text-center text-white">{tsk.length===0?'No Tasks':'New Tasks'}</h1>
+                <h1 className="text-center text-primary">{tsk.length===0?'No Tasks':'New Tasks'}</h1>
             </div>
 
             <div className="container d-flex justify-content-center flex-wrap p-2 h-100vh">
                 {
                     tsk.map((task,index) => {
-                        return <Cards key={task._id} id={task._id} description={task.description} title={`Task ${index + 1}`} />
+                        return <Cards
+                            key={task._id}
+                            id={task._id}
+                            description={task.description}
+                            title={`Task ${index + 1}`}
+                            completed={task.completed} />
                     })
                 }
             </div>

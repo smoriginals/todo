@@ -9,6 +9,10 @@ const createSchema = new mongoose.Schema({
         type: Boolean,
         default:false
     },
+    color: {
+        type: String,
+        default:'white'
+    },
     date: {
         type: Date,
         default: Date.now
