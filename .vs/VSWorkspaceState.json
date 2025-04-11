@@ -5,9 +5,9 @@
     "\\src\\backend",
     "\\src\\backend\\ContextAPI",
     "\\src\\backend\\Controllers",
-    "\\src\\backend\\Routes",
-    "\\src\\Componenets"
+    "\\src\\backend\\Models",
+    "\\src\\backend\\Routes"
   ],
-  "SelectedNode": "\\src\\backend\\Routes\\deletetask.js",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }
