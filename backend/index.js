@@ -1,9 +1,9 @@
 const express = require('express');
 const cors = require('cors');
-const addTask = require('./Routes/addTask');
-const fetchTask = require('./Routes/fetchTask');
-const doneTask = require('./Routes/doneTask');
-const deleteTask = require('./Routes/deleteTask');
+const addtask = require('./routes/addtask');
+const fetchtask = require('./routes/fetthTask');
+const donetask = require('./routes/dontTask');
+const deletetask = require('./routes/deltteTask');
 const dotenv = require('dotenv');
 
 const connectDB = require('./Controllers/db');
@@ -29,10 +29,10 @@ app.use(cors());
 
 
 
-app.use('/task', addTask);
-app.use('/task', fetchTask);
-app.use('/task', doneTask);
-app.use('/task', deleteTask);
+app.use('/task', addtask);
+app.use('/task', fetchtask);
+app.use('/task', donetask);
+app.use('/task', deletetask);
 
 app.listen(PORT, () => {
     console.log(`${PORT} Online...`);

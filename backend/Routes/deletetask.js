@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const taskSchema = require('../Models/task-schema');
+const taskSchema = require('../models/taskschema');
 
 router.delete('/delete/:id', async (req, res) => {
     try {
