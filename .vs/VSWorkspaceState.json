@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\backend",
-    "\\src\\backend\\ContextAPI",
-    "\\src\\backend\\Controllers",
-    "\\src\\backend\\Models",
-    "\\src\\backend\\Routes"
+    "\\backend\\Controllers",
+    "\\backend\\Models",
+    "\\backend\\Routes",
+    "\\src\\Componenets"
   ],
   "SelectedNode": "\\src",
-  "PreviewInSolutionExplorer": false
+  "PreviewInSolutionExplorer": true
 }
