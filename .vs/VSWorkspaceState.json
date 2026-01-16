@@ -4,8 +4,9 @@
     "\\backend\\Controllers",
     "\\backend\\Models",
     "\\backend\\Routes",
-    "\\src\\Componenets"
+    "\\frontend\\src",
+    "\\frontend\\src\\Componenets"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": true
 }
