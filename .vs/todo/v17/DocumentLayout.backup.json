@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\acera\\Desktop\\todo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\backend\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -39,20 +51,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\routes\\deletetask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\backend\\Controllers\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\backend\\controllers\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\controllers\\db.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\Componenets\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -70,190 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
-              "WhenOpened": "2026-01-10T10:36:19.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "fetchtask.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\fetchtask.js",
-              "RelativeDocumentMoniker": "backend\\routes\\fetchtask.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\fetchtask.js",
-              "RelativeToolTip": "backend\\routes\\fetchtask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T10:26:01.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "donetask.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\donetask.js",
-              "RelativeDocumentMoniker": "backend\\routes\\donetask.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\donetask.js",
-              "RelativeToolTip": "backend\\routes\\donetask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T10:25:52.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "deletetask.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\deletetask.js",
-              "RelativeDocumentMoniker": "backend\\routes\\deletetask.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\deletetask.js",
-              "RelativeToolTip": "backend\\routes\\deletetask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T10:25:44.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "addtask.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\addtask.js",
-              "RelativeDocumentMoniker": "backend\\routes\\addtask.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\addtask.js",
-              "RelativeToolTip": "backend\\routes\\addtask.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T10:25:19.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\.env",
-              "RelativeDocumentMoniker": "backend\\.env",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\.env",
-              "RelativeToolTip": "backend\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-10T09:31:47.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\index.js",
-              "RelativeDocumentMoniker": "backend\\index.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\index.js",
-              "RelativeToolTip": "backend\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T09:28:17.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "db.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\controllers\\db.js",
-              "RelativeDocumentMoniker": "backend\\controllers\\db.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\controllers\\db.js",
-              "RelativeToolTip": "backend\\controllers\\db.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T09:19:51.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Navbar.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
-              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Navbar.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
-              "RelativeToolTip": "frontend\\src\\Componenets\\Navbar.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T08:54:59.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Home.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Home.js",
-              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Home.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Home.js",
-              "RelativeToolTip": "frontend\\src\\Componenets\\Home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T08:54:41.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tasksprovider.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
-              "RelativeDocumentMoniker": "frontend\\src\\ContextAPI\\tasksprovider.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
-              "RelativeToolTip": "frontend\\src\\ContextAPI\\tasksprovider.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T08:49:48.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\.env",
-              "RelativeDocumentMoniker": "frontend\\.env",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\.env",
-              "RelativeToolTip": "frontend\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-10T08:49:19.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\index.js",
-              "RelativeDocumentMoniker": "frontend\\src\\index.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\index.js",
-              "RelativeToolTip": "frontend\\src\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T08:44:36.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cards.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Cards.js",
-              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Cards.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Cards.js",
-              "RelativeToolTip": "frontend\\src\\Componenets\\Cards.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-10T08:43:36.366Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -276,7 +98,191 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\package.json",
+              "RelativeDocumentMoniker": "frontend\\package.json",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\package.json",
+              "RelativeToolTip": "frontend\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-16T15:45:18.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
+              "WhenOpened": "2026-01-10T10:36:19.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fetchtask.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\fetchtask.js",
+              "RelativeDocumentMoniker": "backend\\routes\\fetchtask.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\fetchtask.js",
+              "RelativeToolTip": "backend\\routes\\fetchtask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T10:26:01.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "donetask.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\donetask.js",
+              "RelativeDocumentMoniker": "backend\\routes\\donetask.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\donetask.js",
+              "RelativeToolTip": "backend\\routes\\donetask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T10:25:52.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "deletetask.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\deletetask.js",
+              "RelativeDocumentMoniker": "backend\\routes\\deletetask.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\deletetask.js",
+              "RelativeToolTip": "backend\\routes\\deletetask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T10:25:44.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "addtask.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\addtask.js",
+              "RelativeDocumentMoniker": "backend\\routes\\addtask.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\routes\\addtask.js",
+              "RelativeToolTip": "backend\\routes\\addtask.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T10:25:19.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\.env",
+              "RelativeDocumentMoniker": "backend\\.env",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\.env",
+              "RelativeToolTip": "backend\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-10T09:31:47.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\index.js",
+              "RelativeDocumentMoniker": "backend\\index.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\index.js",
+              "RelativeToolTip": "backend\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T09:28:17.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "db.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\backend\\controllers\\db.js",
+              "RelativeDocumentMoniker": "backend\\controllers\\db.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\backend\\controllers\\db.js",
+              "RelativeToolTip": "backend\\controllers\\db.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T09:19:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navbar.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
+              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Navbar.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
+              "RelativeToolTip": "frontend\\src\\Componenets\\Navbar.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T08:54:59.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Home.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Home.js",
+              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Home.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Home.js",
+              "RelativeToolTip": "frontend\\src\\Componenets\\Home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T08:54:41.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tasksprovider.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
+              "RelativeDocumentMoniker": "frontend\\src\\ContextAPI\\tasksprovider.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
+              "RelativeToolTip": "frontend\\src\\ContextAPI\\tasksprovider.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T08:49:48.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\.env",
+              "RelativeDocumentMoniker": "frontend\\.env",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\.env",
+              "RelativeToolTip": "frontend\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-10T08:49:19.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\index.js",
+              "RelativeDocumentMoniker": "frontend\\src\\index.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\index.js",
+              "RelativeToolTip": "frontend\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T08:44:36.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cards.js",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Cards.js",
+              "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Cards.js",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Cards.js",
+              "RelativeToolTip": "frontend\\src\\Componenets\\Cards.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T08:43:36.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\.gitignore",
               "RelativeDocumentMoniker": "frontend\\.gitignore",
@@ -284,8 +290,7 @@
               "RelativeToolTip": "frontend\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
-              "WhenOpened": "2026-01-10T08:40:51.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T08:40:51.817Z"
             }
           ]
         }

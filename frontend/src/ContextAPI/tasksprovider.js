@@ -80,9 +80,9 @@ const TaskProvider = (props) => {
             })
 
             const data = await response.json();
-
             setTsk(tsk.filter(task => task.id !== id));
             await FetchTask();
+            return data;
         }
         catch (error) {
             console.error('Error deleting task:', error);

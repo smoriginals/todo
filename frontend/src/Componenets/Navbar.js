@@ -24,7 +24,7 @@ export default function AddTaskBar(props) {
                 <div className="container d-flex justify-content-center">
                     <p className="navbar-brand text-center w-100 text-primary">What's in Your Mind</p>
                     <div className="d-flex" role="search">
-                        <input className="form-control me-2 input-box" type="search" placeholder="🎯 Let's Do This..." aria-label="Search" onChange={HandleChange} value={inputValue} />
+                        <input className="form-control me-2 input-box" type="search" placeholder="Let's Do This..." aria-label="Search" onChange={HandleChange} value={inputValue} />
                         <button className="btn btn-primary" onClick={HandleAddTask}>Add</button>
                     </div>
                 </div>
