@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\acera\\Desktop\\todo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\ContextAPI\\tasksprovider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\Componenets\\Navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\ContextAPI\\tasksprovider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\todo\\frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -208,13 +208,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Navbar.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
               "RelativeDocumentMoniker": "frontend\\src\\Componenets\\Navbar.js",
               "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\Componenets\\Navbar.js",
               "RelativeToolTip": "frontend\\src\\Componenets\\Navbar.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-10T08:54:59.218Z",
               "EditorCaption": ""
@@ -233,13 +233,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "tasksprovider.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
               "RelativeDocumentMoniker": "frontend\\src\\ContextAPI\\tasksprovider.js",
               "ToolTip": "C:\\Users\\acera\\Desktop\\todo\\frontend\\src\\ContextAPI\\tasksprovider.js",
               "RelativeToolTip": "frontend\\src\\ContextAPI\\tasksprovider.js",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-10T08:49:48.859Z",
               "EditorCaption": ""

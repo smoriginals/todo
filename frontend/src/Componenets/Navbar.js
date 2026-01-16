@@ -1,4 +1,6 @@
-﻿import React, { useState, useContext } from 'react'
+﻿/* eslint-disable unicode-bom */
+
+import React, { useState,useContext} from 'react';
 import context from '../ContextAPI/contexts';
 import '../App.css';
 export default function AddTaskBar(props) {
