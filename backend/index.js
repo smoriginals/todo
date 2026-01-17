@@ -9,11 +9,19 @@ const donetask = require('./routes/donetask');
 const deletetask = require('./routes/deletetask');
 
 dotenv.config();
+connectDB();
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
-app.use(cors({ origin: "https://todo-app-nine-jade-85.vercel.app" }));
+app.use(cors({
+    origin: [
+        "http://localhost:3000",
+        "http://localhost:5000",
+        "https://todo-app-nine-jade-85.vercel.app"
+    ]
+}));
 
 app.get("/", (req, res) => {
     res.send("Backend running");
@@ -25,20 +33,9 @@ app.use('/task', fetchtask);
 app.use('/task', donetask);
 app.use('/task', deletetask);
 
-const startServer = async () => {
-    try {
+app.listen(PORT, () => {
+    console.log(`${PORT} Online...`);
+})
 
-        await connectDB();
-        app.listen(PORT, () => {
-            console.log(`${PORT} Online...`);
-        })
-    } catch (err) {
-        console.log('Database connection field', err);
-        process.exit(1);
-    }
-
-}
-
-startServer();
 
 
