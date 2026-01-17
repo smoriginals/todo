@@ -1,4 +1,4 @@
-const connectDB = require('./Controllers/db');
+const connectDB = require('./controllers/db');
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -33,9 +33,9 @@ app.use('/task', fetchtask);
 app.use('/task', donetask);
 app.use('/task', deletetask);
 
-app.listen(PORT, () => {
-    console.log(`${PORT} Online...`);
-})
+//app.listen(PORT, () => {
+//    console.log(`${PORT} Online...`);
+//})
 
 
 
