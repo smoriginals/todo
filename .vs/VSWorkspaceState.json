@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend\\Controllers",
-    "\\backend\\Models",
-    "\\backend\\Routes",
+    "\\backend",
+    "\\backend\\routes",
     "\\frontend\\src",
     "\\frontend\\src\\Componenets"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\backend\\package.json",
   "PreviewInSolutionExplorer": true
 }
