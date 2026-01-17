@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const taskSchema = require('../models/taskschema');
+const taskSchema = require('../../models/taskschema');
 
 router.patch('/done/:id', async (req, res) => {
 

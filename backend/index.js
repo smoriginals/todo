@@ -3,10 +3,10 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
-const addtask = require('./routes/addtask');
-const fetchtask = require('./routes/fetchtask');
-const donetask = require('./routes/donetask');
-const deletetask = require('./routes/deletetask');
+const addtask = require('./controllers/routes/addtask');
+const fetchtask = require('./controllers/routes/fetchtask');
+const donetask = require('./controllers/routes/donetask');
+const deletetask = require('./controllers/routes/deletetask');
 
 dotenv.config();
 

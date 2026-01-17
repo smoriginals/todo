@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const taskSchema = require('../models/taskschema');  //task-schema imported from task-schema.js.
+const taskSchema = require('../../models/taskschema');  //task-schema imported from task-schema.js.
 
 router.post('/add', async (req, res) => {
     const { description } = req.body;   //task in comes from task-schema.js.
