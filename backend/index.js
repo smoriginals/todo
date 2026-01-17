@@ -1,12 +1,12 @@
-const connectDB = require('./controllers/db.js');
+const connectDB = require('./Controllers/db.js');
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
-const addtask = require('./routes/addtask.js');
-const fetchtask = require('./routes/fetchtask.js');
-const donetask = require('./routes/donetask.js');
-const deletetask = require('./routes/deletetask.js');
+const addtask = require('./Routes/addtask.js');
+const fetchtask = require('./Routes/fetchtask.js');
+const donetask = require('./Routes/donetask.js');
+const deletetask = require('./Routes/deletetask.js');
 
 dotenv.config();
 
