@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import contexts from '../ContextAPI/contexts';
 
 
-const API_URL = process.env.REACT_APP_API_URL||'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL ||'https://todo-tyuo.onrender.com';
 
 const TaskProvider = (props) => {
 

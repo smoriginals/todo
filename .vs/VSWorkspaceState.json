@@ -2,10 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\routes",
+    "\\backend\\controllers",
+    "\\backend\\models",
+    "\\frontend",
     "\\frontend\\src",
-    "\\frontend\\src\\Componenets"
+    "\\frontend\\src\\Componenets",
+    "\\frontend\\src\\ContextAPI"
   ],
-  "SelectedNode": "\\backend\\package.json",
+  "SelectedNode": "\\backend\\index.js",
   "PreviewInSolutionExplorer": true
 }
