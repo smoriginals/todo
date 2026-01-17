@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const taskSchema = require('../../models/taskschema');  //task-schema imported from task-schema.js.
+const taskSchema = require('../models/taskschema');  //task-schema imported from task-schema.js.
 
 router.get('/fetch', async (req, res) => {
    try {
